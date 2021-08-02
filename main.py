@@ -83,7 +83,7 @@ def draw_figure(display, shape, x=0, y=0, c = None):
         for j, c in enumerate(row):
             display.pixel((j+x), i+y, c)
 
-# erases desired figure, I modifed Mohammeds funktion
+# erases desired figure, I modifed Mohammads funktion
 def erase_figure(oled, shape, x=0, y=0):
     for i, row in enumerate(shape):
         for j, c in enumerate(row):
