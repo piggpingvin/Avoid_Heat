@@ -77,7 +77,7 @@ pycom.rgbled(0x00FF00) #green
 #=============================================================================
 # funktions used in main code
 
-# draws desired figure on the display, this funktions is written by Mohammed Qu a TA
+# draws desired figure on the display, this funktions is written by Mohammad Qasem a TA
 def draw_figure(display, shape, x=0, y=0, c = None):
     for i, row in enumerate(shape):
         for j, c in enumerate(row):
