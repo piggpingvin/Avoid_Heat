@@ -96,7 +96,7 @@ def check_temp():
     celsius = 0
     for i in range(5):
          millivolts = tempPin.voltage()
-         celsius = (millivolts - 400.0)/19.5
+         celsius = (millivolts - 400.0)/19.5            # I have used the values for the MCP9701 as I found that to work better, consider changing to - 500.0 and /10 instead. 
          avrage_Temp += celsius
          time.sleep(0.2)                                # wait a litte
     return int(avrage_Temp/(5))
